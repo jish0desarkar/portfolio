@@ -478,6 +478,7 @@ span {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background-color: #bd5050;
 }
 
 .loader {
