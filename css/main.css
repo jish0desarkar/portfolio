@@ -72,6 +72,7 @@ nav {
 .bio {
   display: inline-block;
   margin-left: 27vw;
+  width: 70%;
   overflow-x: hidden; }
   .bio .name {
     font-size: 10rem;
@@ -277,6 +278,11 @@ span {
           padding-bottom: 5rem;
         }
 
+        .bio{
+          padding-right: .5rem;
+          left: -3rem;
+        }
+
      .bio .name{
         font-size: 2.5rem;
       }
@@ -301,6 +307,11 @@ span {
         line-height: 1rem !important;
       }
 
+      .xp{
+        overflow-x: hidden;
+        height: 100%;
+      }
+
       .xp .xp-heading{
         font-size: 2.5rem;
       }
@@ -320,6 +331,9 @@ span {
         font-size: 1rem;
       }
 
+      .project-div{
+        overflow-x: hidden;
+      }
 
       .project-div .project-heading{
         font-size: 2.5rem;
