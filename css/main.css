@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.animated.delay:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+.animated.delay:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.animated.delay:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.animated.delay:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+.animated.delay:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.animated.delay:nth-child(6) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+.animated.delay:nth-child(7) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+.animated.delay:nth-child(8) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+.animated.delay:nth-child(9) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; }
+
+.animated.delay:nth-child(10) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+nav {
+  width: 23vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  text-align: center;
+  background: #df5c05;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center; }
+  nav li {
+    list-style: none;
+    line-height: 1.5rem !important; }
+  nav a {
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family: "Ubuntu", sans-serif; }
+    nav a:hover {
+      cursor: pointer;
+      color: white; }
+    nav a.active {
+      color: white; }
+
+.bio {
+  display: inline-block;
+  margin-left: 27vw;
+  overflow-x: hidden; }
+  .bio .name {
+    font-size: 10rem;
+    margin-top: 18vh;
+    letter-spacing: 3px !important;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 900; }
+  .bio .addr {
+    margin-top: 0rem !important;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(0, 0, 0, 0.5); }
+  .bio .para {
+    margin-top: 8vh;
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5); }
+
+span {
+  color: #df5c05; }
+
+.footer {
+  margin-left: 27vw;
+  margin-top: 7vh;
+  margin-left: 50vw;
+  color: rgba(0, 0, 0, 0.5); }
+  .footer i {
+    margin-right: 1.5vw; }
+    .footer i:hover {
+      color: #df5c05;
+      cursor: pointer; }
+
+.xp {
+  display: inline-block;
+  margin-left: 28vw;
+  margin-top: 10vh;
+  margin-bottom: 20vh; }
+  .xp .xp-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 6rem;
+    font-weight: 600; }
+  .xp .xp-details .xp-subheading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-top: 8vh;
+    font-weight: 700; }
+  .xp .xp-details .org {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7); }
+  .xp .xp-details .dur {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: #bd5050;
+    font-size: 1.5rem;
+    margin-top: 1.5vh; }
+  .xp .xp-details .details {
+    width: 60vw;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-top: 5vh;
+    padding-bottom: 8vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    letter-spacing: 2px; }
+
+.skills {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .skills .skills-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600; }
+  .skills .skill-subheading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-top: 8vh;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5); }
+  .skills .skill-details {
+    display: flex;
+    margin-top: 3vh;
+    line-height: 0 !important;
+    padding: 0 !important;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 5rem; }
+    .skills .skill-details .skill-items {
+      margin-right: 30px;
+      margin-bottom: 5vh; }
+    .skills .skill-details :hover {
+      color: #df5c05;
+      cursor: pointer; }
+  .skills .language {
+    display: flex;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-top: 5vh;
+    padding-bottom: 8vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem; }
+    .skills .language .lang-itmes {
+      display: inline-block;
+      margin-right: 20px; }
+
+.contact-div {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .contact-div .contact-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 12vh;
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 2px; }
+  .contact-div .email {
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7vh;
+    font-size: 2rem; }
+    .contact-div .email .space-email {
+      margin-right: 60px; }
+    .contact-div .email .space-ph {
+      margin-right: 35px; }
+    .contact-div .email .space-addr {
+      margin-right: 10px; }
+
+.interests-div {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .interests-div .interests-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600; }
+  .interests-div .interest-details {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 1.5rem;
+    max-width: 60vw;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10vh; }
+
+.project-div {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .project-div .project-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600; }
+  .project-div .project-details-div .project-subheading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-top: 8vh;
+    font-weight: 700; }
+  .project-div .project-firm {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7); }
+  .project-div .dur {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: #bd5050;
+    font-size: 1.5rem;
+    margin-top: 1.5vh; }
+  .project-div .details {
+    width: 60vw;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-top: 5vh;
+    padding-bottom: 8vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    letter-spacing: 2px; }
+
+    /*media */
+
+    @media (max-width : 1000px){
+        
+    body{
+        max-width:100%;    
+        }
+
+     .bio .name{
+        font-size: 2.5rem;
+      }
+      .bio .addr{
+        font-size: 1.7rem;
+      }
+      .bio .para{
+        font-size: 1.3rem;
+        box-sizing: 50px;
+        padding-right: 15px;
+      }
+      .footer{
+        padding: 0;
+        margin-left: 7rem;
+      }
+      .footer .fa-4x {
+        width: .5rem;
+        padding-right: 5rem;
+      }
+      .nav a{
+        font-size: 1rem;
+        line-height: 1rem !important;
+      }
+
+      .xp .xp-heading{
+        font-size: 2.5rem;
+      }
+
+      .xp .xp-details .xp-subheading{
+        font-size: 1.3rem;
+
+      }
+      .xp .xp-details .org{
+        padding-top: .4rem;
+        font-size: 1rem
+      }
+      .xp .xp-details .dur{
+        font-size: 1rem;
+      }
+      .xp .xp-details .details{
+        font-size: 1rem;
+      }
+
+
+      .project-div .project-heading{
+        font-size: 2.5rem;
+      }
+
+      .project-div .project-details-div .project-subheading{
+        font-size: 1.3rem;
+
+      }
+      .project-div .project-details-div .project-firm{
+        padding-top: .4rem;
+        font-size: 1rem
+      }
+      .project-div .project-details-div .dur{
+        font-size: 1rem;
+      }
+      .project-div .project-details-div .details{
+        font-size: 1rem;
+      }
+
+      .interests-div .interests-heading{
+        font-size: 2.5rem;
+      }
+
+      .interests-div .interest-details{
+        font-size: 1rem;
+      }
+
+      .contact-div .contact-heading{
+        font-size: 2.5rem;
+      }
+      .contact-div .email{
+        font-size: 1rem;
+
+      }
+      .contact-div .email .space-email{
+        margin: 5px;
+      }
+      .contact-div .email .space-addr{
+        margin: 5px;
+      }
+      .contact-div .email .space-ph{
+        margin: 5px;
+      }
+
+      .skills{
+        max-width: 90%;
+      }
+      .skills .skill-details{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+
+      .skills .skills-heading{
+        font-size: 2.5rem;
+      }
+
+      .skills .skill-subheading{
+        font-size: 1.7rem;
+      }
+      .skills .lang-itmes{
+        font-size: 1.5rem;
+      }
+      .skills .skill-details{
+        width: 5rem;
+      }
+      .skills .skill-details .skill-items i {
+          font-size : 2rem;
+      }     
+
+
+
+      .menu-tab {
+        width: 90px;
+        height: 70px;
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+        left: 0px;
+        cursor: pointer;
+        transition: all .6s ease-in-out;
+        /*end of div*/
+      }
+      .menu-tab div {
+        width: 33px;
+        height: 4px;
+        background-color: #2d2d2d;
+        display: block;
+        margin: 5px 28px;
+        transition: all .6s ease-in-out;
+      }
+      .menu-tab div:nth-child(1) {
+        margin-top: 20px;
+      }
+      
+      /*end of menu-tab*/
+      .menu-tab.active {
+        left: 310px;
+        transition: all 600ms ease-in-out;
+      }
+      .menu-tab.active #one {
+        -webkit-transform: translateY(9px) rotate(-135deg);
+                transform: translateY(9px) rotate(-135deg);
+        transition: all .6s ease-in-out;
+        background-color: #e74c3c;
+      }
+      .menu-tab.active #two {
+        opacity: 0;
+        transition: .4s ease;
+      }
+      .menu-tab.active #three {
+        -webkit-transform: translateY(-9px) rotate(-45deg);
+                transform: translateY(-9px) rotate(-45deg);
+        transition: all .6s ease-in-out;
+        background-color: #e74c3c;
+      }
+      
+      .menu-hide {
+        background-color: #df5c05;
+        width: 100%;
+        left: -100%;
+        height: 100vh;
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+        transition: all .6s ease-in-out;
+        /*end of nav*/
+      }
+      .menu-hide nav {
+        /*end of ul*/
+      }
+      .menu-hide nav ul {
+        /*end of li*/
+      }
+      .menu-hide nav ul li {
+        height: 70px;
+        list-style-type: none;
+        text-align: center;
+        line-height: 70px;
+        transition: all .5s ease;
+      }
+      .menu-hide nav ul li:hover {
+        background-color: #e74c3c;
+        transition: all .5s ease;
+      }
+      .menu-hide nav ul li a {
+        padding: 30px 25px;
+        text-decoration: none;
+        font-weight: 800;
+      }
+      
+      /*end of menu-hide*/
+      .menu-hide.show {
+        left: 0px;
+        background-color: rgba(223, 92, 5, 0.88);
+        transition: all .6s ease-in-out;
+      }
+      
+  
+    }

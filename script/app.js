@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $('.menu-tab').click(function(){
+    $('.nav').toggleClass('show');
+    $('.menu-tab').toggleClass('active');
+  });
+  $('a').click(function(){
+    $('.nav').removeClass('show');
+    $('.menu-tab').removeClass('active');
+  });
+});
