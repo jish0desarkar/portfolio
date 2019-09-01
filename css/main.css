@@ -103,6 +103,9 @@ span {
     margin-right: 1.5vw; }
     .footer i:hover {
       color: #df5c05;
+
+      transition: ease-in 0.2s;
+
       cursor: pointer; }
 
 .xp {
@@ -185,7 +188,7 @@ span {
   margin-top: 10vh; }
   .contact-div .contact-heading {
     font-family: "Saira Extra Condensed", sans-serif;
-    margin-bottom: 12vh;
+    margin-bottom: 4vh;
     font-size: 6rem;
     font-weight: 600;
     letter-spacing: 2px; }
@@ -193,9 +196,9 @@ span {
     font-family: "Ubuntu", sans-serif;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 7vh;
-    font-size: 2rem; }
+    font-size: 1.5rem; }
     .contact-div .email .space-email {
-      margin-right: 60px; }
+      margin-right: 50px; }
     .contact-div .email .space-ph {
       margin-right: 35px; }
     .contact-div .email .space-addr {
@@ -252,12 +255,26 @@ span {
     font-size: 1.5rem;
     letter-spacing: 2px; }
 
+    .contact-div .contact-desc{
+      font-size: 1.5rem;
+      font-family: "Ubuntu", sans-serif;
+      color: rgba(223, 92, 5, 0.88);
+      padding-bottom: 5rem;
+    }
+
     /*media */
 
     @media (max-width : 1000px){
         
     body{
         max-width:100%;    
+        }
+
+        .contact-div .contact-desc{
+          font-size: 1rem;
+          font-family: "Ubuntu", sans-serif;
+          color: rgba(223, 92, 5, 0.88);
+          padding-bottom: 5rem;
         }
 
      .bio .name{
